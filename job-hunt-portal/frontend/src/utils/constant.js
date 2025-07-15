@@ -1,4 +1,6 @@
-const BASE_URL = import.meta.env.vite.BASE_API_URL;
+const BASE_URL ='http://localhost:8000' || import.meta.env.VITE_BASE_API_URL || 'https://jobhuntwebsite.onrender.com';
+console.log(BASE_URL);
+
 
 export const USER_API_END_POINT=`${BASE_URL}/api/v1/user`;
 export const JOB_API_END_POINT=`${BASE_URL}/api/v1/job`;
