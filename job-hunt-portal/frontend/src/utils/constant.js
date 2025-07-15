@@ -1,4 +1,4 @@
-const BASE_URL ='http://localhost:8000' || import.meta.env.VITE_BASE_API_URL || 'https://jobhuntwebsite.onrender.com';
+const BASE_URL ='https://jobhuntwebsite.onrender.com';
 console.log(BASE_URL);
 
 
